@@ -28,4 +28,4 @@ top15 = dict(top15)
 
 wordcloud = WordCloud(colormap='Blues', max_font_size=80, background_color='grey').generate_from_frequencies(top15).to_file("BookofJohn.png")
 
-#wordcloud = WordCloud(max_font_size=100, max_words=15, background_color="white").generate(noun_str).to_file("BookofJohn.png")
+
